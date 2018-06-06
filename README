@@ -1,0 +1,14 @@
+Prerequisites
+
+ActiveMQ
+Maven
+
+To populate the queue:
+- start active mq
+- compile the maven (mvn clean install) simple-producer project
+- run the jar with the dependencies inside the target folder
+
+- To process messages:
+-start activemq
+- compile the maven (mvn clean install) simple-synch-consumer project
+- run the jar with the dependencies inside the target folder
