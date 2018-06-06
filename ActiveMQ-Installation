@@ -1,0 +1,13 @@
+#INSTALLAZIONE ACTIVEMQ
+> sudo apt-get update
+> sudo apt-get upgrade
+> sudo apt-get install default-jre
+> sudo apt-get install default-jdk
+> sudo add-apt-repository ppa:webupd8team/java
+> sudo apt-get update
+> sudo apt-get install oracle-java8-installer
+> cd /opt
+> wget http://www.trieuvan.com/apache/activemq/5.14.5/apache-activemq-5.14.5-bin.tar.gz
+> sudo tar zxf apache-activemq-5.14.5-bin.tar.gz
+> sudo ln -s /opt/apache-activemq-5.14.5 activemq
+> sudo /opt/activemq/bin/activemq start
