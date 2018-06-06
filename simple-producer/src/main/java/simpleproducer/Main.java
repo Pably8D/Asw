@@ -1,8 +1,6 @@
 package simpleproducer;
 
 
-import javax.jms.*;
-import javax.annotation.Resource;
 
 import java.util.logging.Logger;
 
